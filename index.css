@@ -1,0 +1,65 @@
+html{
+    font-family: cursive;
+}
+
+
+body{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+   
+.container{
+
+
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.text{
+       border:none;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       font-size: 20px;
+    text-align: right;
+    width: 400px ;
+    height: 40px;
+    
+    background-color: antiquewhite;
+    border-radius: 9px;
+    padding: 12px;
+    overflow-x: auto;
+    
+}
+
+.Calculator-btn{
+    
+    display:grid;
+    justify-content: center;
+
+    grid-template-columns:60px 60px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap: 20px;
+    
+    padding: 10px;
+}
+
+.btn{
+
+    border-radius: 20px;
+    font-size: 20px;
+}
+ .col-2{
+
+ grid-column: 4/span 2;
+}

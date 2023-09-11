@@ -1,0 +1,5 @@
+-use html, css and javascript
+-addition,substraction,multiplication,division
+-show user input and result
+-utilization of css grid for btn
+-use event listener,if-else statement,oparator and loops for handle user input
